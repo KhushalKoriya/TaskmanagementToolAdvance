@@ -1,0 +1,33 @@
+{
+  "type": "commonjs",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "A WebSocket implementation",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node dist/server.js"
+  },
+  "author": "Khushal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/multer": "^1.4.11",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.3.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.5",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

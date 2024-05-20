@@ -1,0 +1,25 @@
+.row {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.col {
+  flex: 1; 
+  margin: 0 10px; 
+}
+
+.draggableButton {
+  background-color: f2f2f2;
+  border: none;
+  width: -webkit-fill-available;
+  color: #5c59c6;
+}
+.draggableTodo {
+  border: 1px dotted;
+}
+.draggableContent {
+  padding: 0.7rem;
+}
+.countData_draggable{
+  color:#6c757d
+}
